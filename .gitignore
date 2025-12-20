@@ -1,0 +1,190 @@
+# ===========================
+# Build Directories
+# ===========================
+**/build/
+**/intermediates/
+**/outputs/
+**/generated/
+/build
+/captures
+.externalNativeBuild
+.cxx
+nativetemplates/build/
+
+# ===========================
+# IDE - IntelliJ/Android Studio
+# ===========================
+.idea/
+*.iml
+*.ipr
+*.iws
+app/app.iml
+
+# ===========================
+# IDE - VSCode
+# ===========================
+.vscode/
+*.code-workspace
+
+# ===========================
+# IDE - Eclipse
+# ===========================
+.metadata
+.classpath
+.project
+.settings/
+bin/
+tmp/
+*.tmp
+
+# ===========================
+# MacOS Meta Files
+# ===========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.TemporaryItems
+.DocumentRevisions-V100
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ===========================
+# Windows Meta Files
+# ===========================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ===========================
+# Linux Meta Files
+# ===========================
+*~
+.directory
+.Trash-*
+.nfs*
+
+# ===========================
+# Xcode Meta Files
+# ===========================
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+DerivedData/
+*.moved-aside
+
+# ===========================
+# Gradle
+# ===========================
+.gradle/
+**/out/
+gradle-app.setting
+gradle-wrapper.properties
+!gradlew
+!gradlew.bat
+!gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+local.properties
+
+# ===========================
+# Android
+# ===========================
+*.apk
+*.aab
+*.ap_
+*.dex
+*.so
+*.keystore
+*.jks
+**/release/baselineProfiles/
+**/release/output-metadata.json
+caches/
+captures/
+externalNativeBuild/
+intermediates/
+kotlin/
+output.json
+signing/
+compress.txt
+lint-baseline.xml
+
+# ===========================
+# Java/Kotlin
+# ===========================
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.hprof
+*.orig
+*.bak
+
+# ===========================
+# Temporary Files
+# ===========================
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+*.orig
+
+# ===========================
+# Database Files
+# ===========================
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# ===========================
+# Flutter (if applicable)
+# ===========================
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.flutter_settings
+pubspec.lock
+
+# ===========================
+# Version Control Meta Files
+# ===========================
+.svn/
+CVS/
+.hg/
+.bzr/
+
+# ===========================
+# LLM/AI Assistant Meta Files
+# ===========================
+.claude/
+.cursor/
+.aider/
+.continue/
+.copilot/
+.windsurf/
+
+# ===========================
+# Other Meta Files
+# ===========================
+*.properties
+node_modules/
+.env
+.env.local
+.env.*.local
+
