@@ -731,7 +731,7 @@ class PaletteGenerator {
   }
 
   copyColor(hex) {
-    navigator.clipboard.writeText(hex).then(() => {
+    navigator.clipboard.writeText(hex.replace('#', '')).then(() => {
       this.showToast('Color copied to clipboard');
     });
   }

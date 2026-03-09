@@ -20,4 +20,4 @@ The application uses the K-Means clustering algorithm to analyze image pixels an
 
 ## Run App
 
-[Color Palette Generator](https://onlycodeblog.github.io/color-palette-generator/)
+[Color Palette Generator](https://aureolls.github.io/color-palette-generator/)
